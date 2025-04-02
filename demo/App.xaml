@@ -1,0 +1,22 @@
+﻿<Application x:Class="demo.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:demo"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="MainBackground" Color="#FFFFFF"/>
+        <SolidColorBrush x:Key="SecondBackground" Color="#BBD9B2"/>
+        <SolidColorBrush x:Key="Accent" Color="#2d6033"/>
+
+        <Style x:Key="TextStyle" TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Gabriola"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+            <Setter Property="FontStyle" Value="Normal"></Setter>
+        </Style>
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="FontFamily" Value="Gabriola"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+            <Setter Property="FontStyle" Value="Normal"></Setter>
+        </Style>
+    </Application.Resources>
+</Application>
